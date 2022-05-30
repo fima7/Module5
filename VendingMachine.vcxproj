@@ -140,6 +140,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="snack.cpp" />
+    <ClCompile Include="snackslot.cpp" />
+    <ClCompile Include="vendingmachine.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="snack.h" />
+    <ClInclude Include="snackslot.h" />
+    <ClInclude Include="vendingmachine.h" />
+    <ClInclude Include="vmtypes.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
